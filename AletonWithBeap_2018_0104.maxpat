@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 62.0, 78.0, 1334.0, 683.0 ],
+		"rect" : [ 62.0, 78.0, 1344.0, 685.0 ],
 		"bgcolor" : [ 0.196078, 0.196078, 0.196078, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38,6 +38,53 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"extract" : 1,
+					"id" : "obj-49",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "bp.Signal Mixer.maxpat",
+					"numinlets" : 4,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1221.0, -84.0, 175.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1158.5, 157.0, 175.0, 116.0 ],
+					"varname" : "bp.Signal Mixer",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-15",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "bp.ak.morphingLFO.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 857.0, -128.0, 289.0, 192.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 860.0, 276.0, 282.0, 190.0 ],
+					"varname" : "bp.ak.Signal2MIDI[2]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
@@ -374,7 +421,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u771005851"
+									"varname" : "u576006441"
 								}
 
 							}
@@ -633,7 +680,7 @@
 ,
 					"patching_rect" : [ 1512.0, -769.0, 80.0, 189.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1241.0, 465.0, 80.0, 189.0 ],
+					"presentation_rect" : [ 1206.0, 472.0, 80.0, 189.0 ],
 					"varname" : "bp.Gain and Bias[2]",
 					"viewvisibility" : 1
 				}
@@ -657,7 +704,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1590.0, -361.0, 68.0, 190.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 842.0, 269.0, 49.0, 190.0 ],
+					"presentation_rect" : [ 807.0, 276.0, 49.0, 190.0 ],
 					"varname" : "bp.Lag Processor[1]",
 					"viewvisibility" : 1
 				}
@@ -681,7 +728,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1605.0, -770.5, 54.0, 192.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1187.0, 465.0, 54.0, 190.0 ],
+					"presentation_rect" : [ 1152.0, 472.0, 54.0, 190.0 ],
 					"varname" : "bp.Lag Processor",
 					"viewvisibility" : 1
 				}
@@ -746,7 +793,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1183.0, -765.0, 153.0, 191.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1030.0, 465.0, 154.0, 190.0 ],
+					"presentation_rect" : [ 995.0, 472.0, 154.0, 190.0 ],
 					"varname" : "bp.ak.Signal2MIDI[1]",
 					"viewvisibility" : 1
 				}
@@ -770,7 +817,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1449.0, -361.0, 131.0, 190.970001 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 895.0, 269.0, 132.0, 190.0 ],
+					"presentation_rect" : [ 1144.0, 276.0, 132.0, 190.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1133,7 +1180,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u022005834"
+									"varname" : "u857006426"
 								}
 
 							}
@@ -1392,7 +1439,7 @@
 ,
 					"patching_rect" : [ 1356.0, -361.0, 80.0, 189.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1109.0, 77.0, 80.0, 189.0 ],
+					"presentation_rect" : [ 1074.0, 84.0, 80.0, 189.0 ],
 					"varname" : "bp.Gain and Bias[1]",
 					"viewvisibility" : 1
 				}
@@ -1410,7 +1457,7 @@
 					"patching_rect" : [ 648.0, 272.5, 244.0, 55.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 624.0, 228.5, 64.0, 55.0 ],
+					"presentation_rect" : [ 589.0, 235.5, 64.0, 55.0 ],
 					"style" : "",
 					"text" : "ADAT\n15-16",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -1477,7 +1524,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 927.0, -361.0, 246.0, 191.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 687.0, 269.0, 153.0, 190.0 ],
+					"presentation_rect" : [ 652.0, 276.0, 153.0, 190.0 ],
 					"varname" : "bp.ak.Signal2MIDI",
 					"viewvisibility" : 1
 				}
@@ -1513,7 +1560,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 832.0, -760.0, 346.0, 195.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 687.0, 465.0, 340.0, 190.0 ],
+					"presentation_rect" : [ 652.0, 472.0, 340.0, 190.0 ],
 					"varname" : "bp.Sequencer",
 					"viewvisibility" : 1
 				}
@@ -2124,7 +2171,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u593005827"
+									"varname" : "u132006419"
 								}
 
 							}
@@ -2486,7 +2533,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 133.0, -795.0, 143.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 57.0, 35.0, 143.0, 18.0 ],
+					"presentation_rect" : [ 22.0, 42.0, 143.0, 18.0 ],
 					"style" : "",
 					"text" : "for Expert Sleepers ES-3",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -2504,7 +2551,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 43.0, -836.0, 410.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.0, 3.0, 410.0, 40.0 ],
+					"presentation_rect" : [ 29.0, 12.0, 410.0, 40.0 ],
 					"style" : "",
 					"text" : "Ableton with BEAP",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -2523,7 +2570,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 43.0, -836.0, 406.01355, 47.248684 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, -1.0, 372.0, 52.0 ],
+					"presentation_rect" : [ 22.0, 8.0, 372.0, 52.0 ],
 					"proportion" : 0.39,
 					"shadow" : -1,
 					"style" : ""
@@ -2542,7 +2589,7 @@
 					"patching_rect" : [ 821.0, -919.0, 244.0, 55.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 55.0, 586.5, 64.0, 55.0 ],
+					"presentation_rect" : [ 20.0, 593.5, 64.0, 55.0 ],
 					"style" : "",
 					"text" : "ADAT\n14",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -2562,7 +2609,7 @@
 					"patching_rect" : [ 769.0, -807.0, 244.0, 55.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 624.0, 541.0, 61.0, 55.0 ],
+					"presentation_rect" : [ 589.0, 548.0, 61.0, 55.0 ],
 					"style" : "",
 					"text" : "ADAT\n17-18",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -2578,7 +2625,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1391.0, -872.0, 5.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 621.0, 63.0, 5.0, 597.0 ]
+					"presentation_rect" : [ 586.0, 70.0, 5.0, 597.0 ]
 				}
 
 			}
@@ -2594,7 +2641,7 @@
 					"patching_rect" : [ 174.0, -809.5, 244.0, 55.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 55.0, 471.0, 61.0, 55.0 ],
+					"presentation_rect" : [ 20.0, 478.0, 61.0, 55.0 ],
 					"style" : "",
 					"text" : "ADAT\n13",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -2614,7 +2661,7 @@
 					"patching_rect" : [ 485.0, -958.0, 244.0, 55.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 55.0, 331.0, 61.0, 55.0 ],
+					"presentation_rect" : [ 20.0, 338.0, 61.0, 55.0 ],
 					"style" : "",
 					"text" : "ADAT\n12",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -2634,7 +2681,7 @@
 					"patching_rect" : [ 463.0, -790.0, 244.0, 55.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 55.0, 131.5, 61.0, 55.0 ],
+					"presentation_rect" : [ 20.0, 138.5, 61.0, 55.0 ],
 					"style" : "",
 					"text" : "ADAT\n11",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -2979,7 +3026,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u524005826"
+									"varname" : "u162006418"
 								}
 
 							}
@@ -3238,7 +3285,7 @@
 ,
 					"patching_rect" : [ 1087.0, 446.0, 80.0, 189.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.0, 265.0, 82.0, 190.0 ],
+					"presentation_rect" : [ 80.0, 272.0, 82.0, 190.0 ],
 					"varname" : "bp.Gain and Bias[3]",
 					"viewvisibility" : 1
 				}
@@ -3581,7 +3628,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u939005825"
+									"varname" : "u598006417"
 								}
 
 							}
@@ -3840,7 +3887,7 @@
 ,
 					"patching_rect" : [ 151.0, 445.0, 78.0, 191.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.0, 65.0, 82.0, 191.0 ],
+					"presentation_rect" : [ 80.0, 72.0, 82.0, 191.0 ],
 					"varname" : "bp.Gain and Bias",
 					"viewvisibility" : 1
 				}
@@ -4393,7 +4440,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u494005823"
+									"varname" : "u437006415"
 								}
 
 							}
@@ -4742,7 +4789,7 @@
 ,
 					"patching_rect" : [ 731.5, 445.0, 77.0, 190.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 194.0, 265.0, 77.0, 190.0 ],
+					"presentation_rect" : [ 159.0, 272.0, 77.0, 190.0 ],
 					"varname" : "bp.ak.ClockDivider[2]",
 					"viewvisibility" : 1
 				}
@@ -4786,7 +4833,7 @@
 					"outlettype" : [ "signal", "signal", "signal" ],
 					"patching_rect" : [ 814.0, 650.0, 271.0, 190.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.0, 466.0, 271.0, 190.0 ],
+					"presentation_rect" : [ 80.0, 473.0, 271.0, 190.0 ],
 					"varname" : "bp.ak.Lorenz",
 					"viewvisibility" : 1
 				}
@@ -4809,7 +4856,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 231.0, 446.0, 419.0, 190.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 194.0, 66.0, 421.0, 189.0 ],
+					"presentation_rect" : [ 159.0, 73.0, 421.0, 189.0 ],
 					"varname" : "bp.ak.LFMW",
 					"viewvisibility" : 1
 				}
@@ -6647,7 +6694,7 @@
 							}
 , 							{
 								"box" : 								{
-									"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 238.297804, 1.0, 0, 0.0, 936.169947, 0.0, 0, 0.0, 1685.105906, 1.0, 0, 0.6, 2000.00193, 0.0, 0, -0.05 ],
+									"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 238.297782, 1.0, 0, 0.0, 936.169863, 0.0, 0, 0.0, 1685.105755, 1.0, 0, 0.6, 2000.001751, 0.0, 0, -0.05 ],
 									"bgcolor" : [ 0.094118, 0.117647, 0.137255, 1.0 ],
 									"domain" : 2000.0,
 									"gridcolor" : [ 0.5, 0.5, 0.5, 0.5 ],
@@ -7428,7 +7475,7 @@
 									"patching_rect" : [ -126.5, 234.160706, 59.5, 22.0 ],
 									"restore" : 									{
 										"DelayTime" : [ 333.0 ],
-										"Env" : [ 2000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 238.297804, 1.0, 0, 0.0, 936.169947, 0.0, 0, 0.0, 1685.105906, 1.0, 0, 0.6, 2000.00193, 0.0, 0, -0.05, "curve" ],
+										"Env" : [ 2000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 238.297782, 1.0, 0, 0.0, 936.169863, 0.0, 0, 0.0, 1685.105755, 1.0, 0, 0.6, 2000.001751, 0.0, 0, -0.05, "curve" ],
 										"Mute" : [ 0.0 ],
 										"Start" : [ 0.0 ],
 										"SyncBase" : [ 19.0 ],
@@ -7438,7 +7485,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u791005818"
+									"varname" : "u179006410"
 								}
 
 							}
@@ -7857,7 +7904,7 @@
 ,
 					"patching_rect" : [ 814.0, 445.0, 271.0, 190.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 273.0, 265.0, 271.0, 190.0 ],
+					"presentation_rect" : [ 238.0, 272.0, 271.0, 190.0 ],
 					"varname" : "bp.ak.MathVoltage",
 					"viewvisibility" : 1
 				}
@@ -8427,7 +8474,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u246005817"
+									"varname" : "u722006409"
 								}
 
 							}
@@ -8776,7 +8823,7 @@
 ,
 					"patching_rect" : [ 455.0, -361.0, 77.0, 190.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 687.0, 77.0, 77.0, 190.0 ],
+					"presentation_rect" : [ 652.0, 84.0, 77.0, 190.0 ],
 					"varname" : "bp.ak.ClockDivider",
 					"viewvisibility" : 1
 				}
@@ -8820,7 +8867,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 564.0, -361.0, 340.0, 189.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 766.0, 77.0, 341.0, 190.0 ],
+					"presentation_rect" : [ 731.0, 84.0, 341.0, 190.0 ],
 					"varname" : "bp.Euclidean",
 					"viewvisibility" : 1
 				}
@@ -9536,12 +9583,12 @@
 									"restore" : 									{
 										"GateTime[1]" : [ 20.0 ],
 										"Transport" : [ 1.0 ],
-										"live.numbox" : [ 13.0 ]
+										"live.numbox" : [ 9.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u060005813"
+									"varname" : "u673006405"
 								}
 
 							}
@@ -9994,7 +10041,7 @@
 ,
 					"patching_rect" : [ -259.0, -711.0, 117.0, 191.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 415.5, 466.0, 117.0, 190.0 ],
+					"presentation_rect" : [ 380.5, 473.0, 117.0, 190.0 ],
 					"varname" : "bp.ak.LinkTransport",
 					"viewvisibility" : 1
 				}
@@ -10175,7 +10222,7 @@
 					"patching_rect" : [ -222.0, 213.0, 54.0, 20.0 ],
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u410005852"
+					"varname" : "u486006444"
 				}
 
 			}
@@ -10212,7 +10259,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 63.0, -796.0, 406.01355, 47.248684 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.0, 60.0, 564.0, 198.0 ],
+					"presentation_rect" : [ 20.0, 67.0, 564.0, 198.0 ],
 					"proportion" : 0.39,
 					"rounded" : 20,
 					"style" : ""
@@ -10231,7 +10278,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 878.0, -984.0, 406.01355, 47.248684 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 624.0, 462.0, 702.0, 198.0 ],
+					"presentation_rect" : [ 589.0, 469.0, 753.0, 198.0 ],
 					"proportion" : 0.39,
 					"rounded" : 20,
 					"style" : ""
@@ -10250,7 +10297,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 805.0, -846.0, 406.01355, 47.248684 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 624.0, 60.0, 702.0, 399.0 ],
+					"presentation_rect" : [ 589.0, 67.0, 753.0, 399.0 ],
 					"proportion" : 0.39,
 					"rounded" : 20,
 					"style" : ""
@@ -10269,7 +10316,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 759.0, -1063.0, 406.01355, 47.248684 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.0, 462.0, 346.0, 198.0 ],
+					"presentation_rect" : [ 20.0, 469.0, 346.0, 198.0 ],
 					"proportion" : 0.39,
 					"rounded" : 20,
 					"style" : ""
@@ -10288,7 +10335,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 475.0, -898.0, 406.01355, 47.248684 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.0, 261.0, 564.0, 198.0 ],
+					"presentation_rect" : [ 20.0, 268.0, 564.0, 198.0 ],
 					"proportion" : 0.39,
 					"rounded" : 20,
 					"style" : ""
@@ -10307,7 +10354,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 867.0, 664.0, 406.01355, 47.248684 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 404.0, 462.0, 215.0, 198.0 ],
+					"presentation_rect" : [ 369.0, 469.0, 215.0, 198.0 ],
 					"proportion" : 0.39,
 					"rounded" : 20,
 					"style" : ""
@@ -10326,6 +10373,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 1 ],
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -10517,6 +10571,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -10624,7 +10685,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
+					"destination" : [ "obj-49", 0 ],
 					"source" : [ "obj-76", 0 ]
 				}
 
@@ -10652,117 +10713,131 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-32::obj-20" : [ "mute[14]", "mute", 0 ],
-			"obj-67::obj-20" : [ "ModWheelActivityLED[1]", "ModWheelActivityLED", 0 ],
-			"obj-25::obj-46" : [ "Channel[10]", "Channel", 0 ],
-			"obj-62::obj-2" : [ "Atten[4]", "Atten", 0 ],
-			"obj-12::obj-121" : [ "DelayTime", "DelayTime", 0 ],
-			"obj-31::obj-20" : [ "mute[24]", "mute", 0 ],
-			"obj-9::obj-20" : [ "mute[7]", "mute", 0 ],
-			"obj-21::obj-20" : [ "mute[21]", "mute", 0 ],
-			"obj-18::obj-18" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-48::obj-20" : [ "mute[30]", "mute", 0 ],
-			"obj-13::obj-80" : [ "Start[3]", "Start", 0 ],
-			"obj-16::obj-33" : [ "GateTime[2]", "GateTime", 0 ],
-			"obj-2::obj-22" : [ "InterpMode[1]", "InterpMode", 1 ],
-			"obj-13::obj-45" : [ "TargetInvert", "Invert", 0 ],
-			"obj-8::obj-134" : [ "RotationX", "RotationX", 0 ],
-			"obj-72::obj-120" : [ "Max pulse[2]", "Max pulse", 0 ],
-			"obj-13::obj-76" : [ "TimeMode[3]", "TimeMode", 1 ],
-			"obj-38::obj-30" : [ "Octave", "Octave", 0 ],
-			"obj-23::obj-29" : [ "Steps[2]", "Div", 0 ],
-			"obj-72::obj-95" : [ "Steps[1]", "Steps", 0 ],
-			"obj-72::obj-125" : [ "NoteGrid", "NoteGrid", 0 ],
-			"obj-26::obj-46" : [ "Channel[11]", "Channel", 0 ],
-			"obj-6::obj-46" : [ "Channel[6]", "Channel", 0 ],
-			"obj-76::obj-20" : [ "ModWheelActivityLED[2]", "ModWheelActivityLED", 0 ],
-			"obj-27::obj-7" : [ "Bias", "Bias", 0 ],
-			"obj-70::obj-22" : [ "InterpMode", "InterpMode", 1 ],
-			"obj-12::obj-144" : [ "SyncNum", "SyncNum", 0 ],
-			"obj-40::obj-7" : [ "Bias[5]", "Bias", 0 ],
-			"obj-72::obj-96" : [ "Pulse[2]", "Pulse", 0 ],
-			"obj-9::obj-46" : [ "Channel[3]", "Channel", 0 ],
-			"obj-13::obj-97" : [ "Phase", "Phase", 0 ],
 			"obj-10::obj-20" : [ "mute", "mute", 0 ],
-			"obj-62::obj-20" : [ "mute[23]", "mute", 0 ],
-			"obj-72::obj-25" : [ "GateTime[3]", "GateTime", 0 ],
-			"obj-48::obj-18" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-2::obj-11" : [ "Link[1]", "Link", 1 ],
-			"obj-13::obj-62" : [ "TargetCompand", "Comp", 0 ],
-			"obj-13::obj-55" : [ "TargetMin", "Min", 0 ],
-			"obj-38::obj-120" : [ "Max pulse", "Max pulse", 0 ],
-			"obj-16::obj-76" : [ "Transport", "Transport", 0 ],
-			"obj-14::obj-20" : [ "mute[10]", "mute", 0 ],
-			"obj-21::obj-33" : [ "PresetSubdivisions[4]", "PresetSubdiv", 0 ],
-			"obj-72::obj-185" : [ "Sequence", "Sequence", 0 ],
-			"obj-46::obj-20" : [ "mute[28]", "mute", 0 ],
-			"obj-76::obj-69" : [ "1voctled[2]", "1voctled", 0 ],
-			"obj-31::obj-7" : [ "Bias[3]", "Bias", 0 ],
-			"obj-70::obj-11" : [ "Link", "Link", 1 ],
-			"obj-12::obj-29" : [ "Mute", "Mute", 0 ],
-			"obj-21::obj-29" : [ "Steps[4]", "Div", 0 ],
-			"obj-13::obj-79" : [ "Freq", "Freq", 0 ],
-			"obj-70::obj-37" : [ "Up", "Up", 0 ],
+			"obj-32::obj-20" : [ "mute[14]", "mute", 0 ],
+			"obj-72::obj-155" : [ "Swing amount[2]", "Swing amount", 0 ],
 			"obj-48::obj-23" : [ "Steps[6]", "nn", 0 ],
-			"obj-11::obj-20" : [ "mute[8]", "mute", 0 ],
-			"obj-13::obj-78" : [ "SyncBase[3]", "SyncBase", 0 ],
-			"obj-8::obj-95" : [ "Frequency[1]", "Freq", 0 ],
-			"obj-4::obj-33" : [ "PresetSubdivisions", "PresetSubdiv", 0 ],
-			"obj-10::obj-46" : [ "Channel", "Channel", 0 ],
-			"obj-18::obj-48" : [ "MIDIActivityLED[2]", "MIDIActivityLED", 0 ],
+			"obj-8::obj-133" : [ "RotationY", "RotationY", 0 ],
+			"obj-48::obj-48" : [ "MIDIActivityLED[1]", "MIDIActivityLED", 0 ],
+			"obj-31::obj-20" : [ "mute[24]", "mute", 0 ],
+			"obj-76::obj-20" : [ "ModWheelActivityLED[2]", "ModWheelActivityLED", 0 ],
 			"obj-2::obj-37" : [ "Up[1]", "Up", 0 ],
 			"obj-38::obj-6" : [ "Steps", "nn", 0 ],
-			"obj-13::obj-103" : [ "TargetJitter", "Jitter", 0 ],
-			"obj-38::obj-113" : [ "<<", "<<", 0 ],
-			"obj-38::obj-55" : [ "GateTime", "GateTime", 0 ],
-			"obj-4::obj-29" : [ "Steps[9]", "Div", 0 ],
-			"obj-8::obj-133" : [ "RotationY", "RotationY", 0 ],
-			"obj-72::obj-157" : [ "Swing enable[2]", "Swing enable", 0 ],
-			"obj-72::obj-130" : [ "mute[33]", "mute", 0 ],
-			"obj-32::obj-46" : [ "Channel[8]", "Channel", 0 ],
-			"obj-13::obj-169" : [ "Waveform", "Waveform", 0 ],
-			"obj-72::obj-28" : [ "Sync[1]", "Sync", 0 ],
-			"obj-12::obj-80" : [ "Start", "Start", 0 ],
-			"obj-25::obj-20" : [ "mute[9]", "mute", 0 ],
-			"obj-12::obj-137" : [ "Env", "Env", 0 ],
-			"obj-40::obj-2" : [ "Atten[2]", "Atten", 0 ],
-			"obj-18::obj-23" : [ "Steps[7]", "nn", 0 ],
-			"obj-62::obj-7" : [ "Bias[2]", "Bias", 0 ],
-			"obj-12::obj-147" : [ "TimeMode", "TimeMode", 1 ],
-			"obj-67::obj-28" : [ "Bend[1]", "Bend", 0 ],
-			"obj-27::obj-20" : [ "mute[11]", "mute", 0 ],
-			"obj-72::obj-155" : [ "Swing amount[2]", "Swing amount", 0 ],
-			"obj-72::obj-2" : [ "trans_trig", "trans_trig", 0 ],
-			"obj-67::obj-69" : [ "1voctled[1]", "1voctled", 0 ],
-			"obj-13::obj-88" : [ "TargetCurve", "Curve", 0 ],
-			"obj-23::obj-33" : [ "PresetSubdivisions[2]", "PresetSubdiv", 0 ],
 			"obj-18::obj-20" : [ "mute[31]", "mute", 0 ],
-			"obj-13::obj-87" : [ "TargetSmooth", "Smooth", 0 ],
+			"obj-15::obj-110" : [ "Amt[2]", "CV Amt", 0 ],
+			"obj-10::obj-46" : [ "Channel", "Channel", 0 ],
 			"obj-38::obj-29" : [ "Mute[7]", "Mute", 0 ],
-			"obj-72::obj-49" : [ "Freeze", "Freeze", 0 ],
-			"obj-26::obj-20" : [ "mute[27]", "mute", 0 ],
-			"obj-31::obj-2" : [ "Atten[5]", "Atten", 0 ],
-			"obj-38::obj-112" : [ ">>", ">>", 0 ],
-			"obj-6::obj-20" : [ "mute[16]", "mute", 0 ],
-			"obj-4::obj-20" : [ "mute[2]", "mute", 0 ],
-			"obj-23::obj-20" : [ "mute[18]", "mute", 0 ],
-			"obj-46::obj-46" : [ "Channel[12]", "Channel", 0 ],
-			"obj-76::obj-28" : [ "Bend[2]", "Bend", 0 ],
-			"obj-27::obj-2" : [ "Atten", "Atten", 0 ],
+			"obj-72::obj-95" : [ "Steps[1]", "Steps", 0 ],
+			"obj-49::obj-39" : [ "in1", "in1", 0 ],
+			"obj-9::obj-20" : [ "mute[7]", "mute", 0 ],
+			"obj-13::obj-103" : [ "TargetJitter", "Jitter", 0 ],
 			"obj-12::obj-148" : [ "SyncBase", "SyncBase", 0 ],
-			"obj-14::obj-46" : [ "Channel[13]", "Channel", 0 ],
-			"obj-16::obj-4" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-13::obj-29" : [ "Mute[6]", "Mute", 0 ],
-			"obj-8::obj-110" : [ "Amt[1]", "CV Amt", 0 ],
-			"obj-70::obj-9" : [ "Down", "Down", 0 ],
-			"obj-40::obj-20" : [ "mute[15]", "mute", 0 ],
-			"obj-48::obj-48" : [ "MIDIActivityLED[1]", "MIDIActivityLED", 0 ],
 			"obj-11::obj-46" : [ "Channel[4]", "Channel", 0 ],
-			"obj-13::obj-66" : [ "SyncNum[3]", "SyncNum", 0 ],
+			"obj-23::obj-33" : [ "PresetSubdivisions[2]", "PresetSubdiv", 0 ],
+			"obj-72::obj-96" : [ "Pulse[2]", "Pulse", 0 ],
+			"obj-31::obj-2" : [ "Atten[5]", "Atten", 0 ],
+			"obj-15::obj-36" : [ "INDEX", "INDEX", 0 ],
+			"obj-8::obj-95" : [ "Frequency[1]", "Freq", 0 ],
+			"obj-25::obj-46" : [ "Channel[10]", "Channel", 0 ],
+			"obj-40::obj-7" : [ "Bias[5]", "Bias", 0 ],
+			"obj-72::obj-28" : [ "Sync[1]", "Sync", 0 ],
+			"obj-48::obj-18" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-2::obj-22" : [ "InterpMode[1]", "InterpMode", 1 ],
+			"obj-23::obj-29" : [ "Steps[2]", "Div", 0 ],
+			"obj-15::obj-89" : [ "Sync", "1", 2 ],
+			"obj-72::obj-185" : [ "Sequence", "Sequence", 0 ],
+			"obj-18::obj-18" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-62::obj-2" : [ "Atten[4]", "Atten", 0 ],
+			"obj-38::obj-113" : [ "<<", "<<", 0 ],
+			"obj-26::obj-46" : [ "Channel[11]", "Channel", 0 ],
+			"obj-70::obj-11" : [ "Link", "Link", 1 ],
+			"obj-27::obj-7" : [ "Bias", "Bias", 0 ],
+			"obj-72::obj-25" : [ "GateTime[3]", "GateTime", 0 ],
+			"obj-72::obj-125" : [ "NoteGrid", "NoteGrid", 0 ],
+			"obj-13::obj-88" : [ "TargetCurve", "Curve", 0 ],
+			"obj-46::obj-46" : [ "Channel[12]", "Channel", 0 ],
+			"obj-67::obj-69" : [ "1voctled[1]", "1voctled", 0 ],
 			"obj-2::obj-9" : [ "Down[1]", "Down", 0 ],
+			"obj-4::obj-20" : [ "mute[2]", "mute", 0 ],
+			"obj-12::obj-121" : [ "DelayTime", "DelayTime", 0 ],
+			"obj-72::obj-120" : [ "Max pulse[2]", "Max pulse", 0 ],
+			"obj-13::obj-87" : [ "TargetSmooth", "Smooth", 0 ],
+			"obj-14::obj-20" : [ "mute[10]", "mute", 0 ],
+			"obj-12::obj-29" : [ "Mute", "Mute", 0 ],
+			"obj-49::obj-32" : [ "in2", "in2", 0 ],
+			"obj-72::obj-130" : [ "mute[33]", "mute", 0 ],
+			"obj-70::obj-37" : [ "Up", "Up", 0 ],
+			"obj-8::obj-132" : [ "RotationZ", "RotationZ", 0 ],
+			"obj-18::obj-23" : [ "Steps[7]", "nn", 0 ],
+			"obj-6::obj-20" : [ "mute[16]", "mute", 0 ],
+			"obj-72::obj-157" : [ "Swing enable[2]", "Swing enable", 0 ],
+			"obj-76::obj-69" : [ "1voctled[2]", "1voctled", 0 ],
+			"obj-38::obj-55" : [ "GateTime", "GateTime", 0 ],
+			"obj-72::obj-49" : [ "Freeze", "Freeze", 0 ],
+			"obj-13::obj-66" : [ "SyncNum[3]", "SyncNum", 0 ],
+			"obj-38::obj-30" : [ "Octave", "Octave", 0 ],
+			"obj-13::obj-97" : [ "Phase", "Phase", 0 ],
+			"obj-72::obj-2" : [ "trans_trig", "trans_trig", 0 ],
+			"obj-62::obj-20" : [ "mute[23]", "mute", 0 ],
+			"obj-21::obj-29" : [ "Steps[4]", "Div", 0 ],
+			"obj-38::obj-112" : [ ">>", ">>", 0 ],
 			"obj-13::obj-53" : [ "TargetMax", "Max", 0 ],
+			"obj-12::obj-144" : [ "SyncNum", "SyncNum", 0 ],
+			"obj-40::obj-2" : [ "Atten[2]", "Atten", 0 ],
+			"obj-2::obj-11" : [ "Link[1]", "Link", 1 ],
+			"obj-11::obj-20" : [ "mute[8]", "mute", 0 ],
+			"obj-21::obj-20" : [ "mute[21]", "mute", 0 ],
+			"obj-15::obj-21" : [ "Invert", "Invert", 2 ],
+			"obj-25::obj-20" : [ "mute[9]", "mute", 0 ],
+			"obj-67::obj-20" : [ "ModWheelActivityLED[1]", "ModWheelActivityLED", 0 ],
+			"obj-32::obj-46" : [ "Channel[8]", "Channel", 0 ],
+			"obj-27::obj-20" : [ "mute[11]", "mute", 0 ],
+			"obj-15::obj-11" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-8::obj-134" : [ "RotationX", "RotationX", 0 ],
+			"obj-76::obj-28" : [ "Bend[2]", "Bend", 0 ],
+			"obj-12::obj-80" : [ "Start", "Start", 0 ],
+			"obj-18::obj-48" : [ "MIDIActivityLED[2]", "MIDIActivityLED", 0 ],
+			"obj-48::obj-20" : [ "mute[30]", "mute", 0 ],
+			"obj-49::obj-29" : [ "in3", "in3", 0 ],
+			"obj-4::obj-33" : [ "PresetSubdivisions", "PresetSubdiv", 0 ],
+			"obj-13::obj-29" : [ "Mute[6]", "Mute", 0 ],
+			"obj-21::obj-33" : [ "PresetSubdivisions[4]", "PresetSubdiv", 0 ],
 			"obj-38::obj-4" : [ "Hits", "Hits", 0 ],
-			"obj-8::obj-132" : [ "RotationZ", "RotationZ", 0 ]
+			"obj-26::obj-20" : [ "mute[27]", "mute", 0 ],
+			"obj-4::obj-29" : [ "Steps[9]", "Div", 0 ],
+			"obj-8::obj-110" : [ "Amt[1]", "CV Amt", 0 ],
+			"obj-13::obj-45" : [ "TargetInvert", "Invert", 0 ],
+			"obj-12::obj-137" : [ "Env", "Env", 0 ],
+			"obj-13::obj-76" : [ "TimeMode[3]", "TimeMode", 1 ],
+			"obj-13::obj-169" : [ "Waveform", "Waveform", 0 ],
+			"obj-14::obj-46" : [ "Channel[13]", "Channel", 0 ],
+			"obj-15::obj-12" : [ "Mute[1]", "Mute", 0 ],
+			"obj-15::obj-69" : [ "Frequency", "FREQ", 0 ],
+			"obj-13::obj-79" : [ "Freq", "Freq", 0 ],
+			"obj-13::obj-78" : [ "SyncBase[3]", "SyncBase", 0 ],
+			"obj-31::obj-7" : [ "Bias[3]", "Bias", 0 ],
+			"obj-15::obj-95" : [ "Note", "Note", 0 ],
+			"obj-40::obj-20" : [ "mute[15]", "mute", 0 ],
+			"obj-23::obj-20" : [ "mute[18]", "mute", 0 ],
+			"obj-70::obj-9" : [ "Down", "Down", 0 ],
+			"obj-6::obj-46" : [ "Channel[6]", "Channel", 0 ],
+			"obj-67::obj-28" : [ "Bend[1]", "Bend", 0 ],
+			"obj-16::obj-4" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-62::obj-7" : [ "Bias[2]", "Bias", 0 ],
+			"obj-27::obj-2" : [ "Atten", "Atten", 0 ],
+			"obj-13::obj-62" : [ "TargetCompand", "Comp", 0 ],
+			"obj-46::obj-20" : [ "mute[28]", "mute", 0 ],
+			"obj-38::obj-120" : [ "Max pulse", "Max pulse", 0 ],
+			"obj-13::obj-80" : [ "Start[3]", "Start", 0 ],
+			"obj-49::obj-33" : [ "in4", "in4", 0 ],
+			"obj-9::obj-46" : [ "Channel[3]", "Channel", 0 ],
+			"obj-16::obj-33" : [ "GateTime[2]", "GateTime", 0 ],
+			"obj-13::obj-55" : [ "TargetMin", "Min", 0 ],
+			"obj-12::obj-147" : [ "TimeMode", "TimeMode", 1 ],
+			"obj-70::obj-22" : [ "InterpMode", "InterpMode", 1 ],
+			"obj-16::obj-76" : [ "Transport", "Transport", 0 ],
+			"obj-15::obj-87" : [ "Multi", "Multi", 0 ],
+			"obj-49::obj-37" : [ "power", "power", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -10951,6 +11026,20 @@
 				"name" : "bp.ak.slew.maxpat",
 				"bootpath" : "/Volumes/EXHDD/_MyMusic/MaxPatch/BEAPPatch/bp.ak.slew",
 				"patcherrelativepath" : "../bp.ak.slew",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.ak.morphingLFO.maxpat",
+				"bootpath" : "/Volumes/EXHDD/_MyMusic/MaxPatch/BEAPPatch/bp.ak.MorphingLFO",
+				"patcherrelativepath" : "../bp.ak.MorphingLFO",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.Signal Mixer.maxpat",
+				"bootpath" : "/Volumes/EXHDD/_MyMusic/MaxPatch/BEAPPatch/BEAP-master/clippings/BEAP/Mixers",
+				"patcherrelativepath" : "../BEAP-master/clippings/BEAP/Mixers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
